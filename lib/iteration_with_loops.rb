@@ -8,4 +8,5 @@ def find_min_in_nested_arrays(src)
     smallest_numbers << src[outer_index].sort[0]
     outer_index += 1
   end
+  smallest_numbers
 end
